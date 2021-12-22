@@ -17,6 +17,9 @@
 		84367A332772545A000FD919 /* GETPeopleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84367A322772545A000FD919 /* GETPeopleTests.swift */; };
 		84367A3D2772545A000FD919 /* GETPeopleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84367A3C2772545A000FD919 /* GETPeopleUITests.swift */; };
 		84367A3F2772545A000FD919 /* GETPeopleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84367A3E2772545A000FD919 /* GETPeopleUITestsLaunchTests.swift */; };
+		84367A4C2772FFFF000FD919 /* APIConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84367A4B2772FFFF000FD919 /* APIConnection.swift */; };
+		84367A4E277300A9000FD919 /* DataDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84367A4D277300A9000FD919 /* DataDelegate.swift */; };
+		84367A5027730632000FD919 /* FilmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84367A4F27730632000FD919 /* FilmsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		84367A1527725459000FD919 /* GETPeople.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GETPeople.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84367A1527725459000FD919 /* GETFilms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GETFilms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84367A1827725459000FD919 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84367A1A27725459000FD919 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		84367A1C27725459000FD919 /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
@@ -46,11 +49,14 @@
 		84367A242772545A000FD919 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84367A272772545A000FD919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84367A292772545A000FD919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84367A2E2772545A000FD919 /* GETPeopleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GETPeopleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84367A2E2772545A000FD919 /* GETFilmsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GETFilmsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84367A322772545A000FD919 /* GETPeopleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GETPeopleTests.swift; sourceTree = "<group>"; };
-		84367A382772545A000FD919 /* GETPeopleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GETPeopleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84367A382772545A000FD919 /* GETFilmsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GETFilmsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84367A3C2772545A000FD919 /* GETPeopleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GETPeopleUITests.swift; sourceTree = "<group>"; };
 		84367A3E2772545A000FD919 /* GETPeopleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GETPeopleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84367A4B2772FFFF000FD919 /* APIConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConnection.swift; sourceTree = "<group>"; };
+		84367A4D277300A9000FD919 /* DataDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDelegate.swift; sourceTree = "<group>"; };
+		84367A4F27730632000FD919 /* FilmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,9 +97,9 @@
 		84367A1627725459000FD919 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				84367A1527725459000FD919 /* GETPeople.app */,
-				84367A2E2772545A000FD919 /* GETPeopleTests.xctest */,
-				84367A382772545A000FD919 /* GETPeopleUITests.xctest */,
+				84367A1527725459000FD919 /* GETFilms.app */,
+				84367A2E2772545A000FD919 /* GETFilmsTests.xctest */,
+				84367A382772545A000FD919 /* GETFilmsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,7 +109,10 @@
 			children = (
 				84367A1827725459000FD919 /* AppDelegate.swift */,
 				84367A1A27725459000FD919 /* SceneDelegate.swift */,
+				84367A4B2772FFFF000FD919 /* APIConnection.swift */,
+				84367A4D277300A9000FD919 /* DataDelegate.swift */,
 				84367A1C27725459000FD919 /* PeopleViewController.swift */,
+				84367A4F27730632000FD919 /* FilmsViewController.swift */,
 				84367A1E27725459000FD919 /* Main.storyboard */,
 				84367A242772545A000FD919 /* Assets.xcassets */,
 				84367A262772545A000FD919 /* LaunchScreen.storyboard */,
@@ -133,9 +142,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		84367A1427725459000FD919 /* GETPeople */ = {
+		84367A1427725459000FD919 /* GETFilms */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84367A422772545A000FD919 /* Build configuration list for PBXNativeTarget "GETPeople" */;
+			buildConfigurationList = 84367A422772545A000FD919 /* Build configuration list for PBXNativeTarget "GETFilms" */;
 			buildPhases = (
 				84367A1127725459000FD919 /* Sources */,
 				84367A1227725459000FD919 /* Frameworks */,
@@ -145,14 +154,14 @@
 			);
 			dependencies = (
 			);
-			name = GETPeople;
+			name = GETFilms;
 			productName = GETPeople;
-			productReference = 84367A1527725459000FD919 /* GETPeople.app */;
+			productReference = 84367A1527725459000FD919 /* GETFilms.app */;
 			productType = "com.apple.product-type.application";
 		};
-		84367A2D2772545A000FD919 /* GETPeopleTests */ = {
+		84367A2D2772545A000FD919 /* GETFilmsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84367A452772545A000FD919 /* Build configuration list for PBXNativeTarget "GETPeopleTests" */;
+			buildConfigurationList = 84367A452772545A000FD919 /* Build configuration list for PBXNativeTarget "GETFilmsTests" */;
 			buildPhases = (
 				84367A2A2772545A000FD919 /* Sources */,
 				84367A2B2772545A000FD919 /* Frameworks */,
@@ -163,14 +172,14 @@
 			dependencies = (
 				84367A302772545A000FD919 /* PBXTargetDependency */,
 			);
-			name = GETPeopleTests;
+			name = GETFilmsTests;
 			productName = GETPeopleTests;
-			productReference = 84367A2E2772545A000FD919 /* GETPeopleTests.xctest */;
+			productReference = 84367A2E2772545A000FD919 /* GETFilmsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		84367A372772545A000FD919 /* GETPeopleUITests */ = {
+		84367A372772545A000FD919 /* GETFilmsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84367A482772545A000FD919 /* Build configuration list for PBXNativeTarget "GETPeopleUITests" */;
+			buildConfigurationList = 84367A482772545A000FD919 /* Build configuration list for PBXNativeTarget "GETFilmsUITests" */;
 			buildPhases = (
 				84367A342772545A000FD919 /* Sources */,
 				84367A352772545A000FD919 /* Frameworks */,
@@ -181,9 +190,9 @@
 			dependencies = (
 				84367A3A2772545A000FD919 /* PBXTargetDependency */,
 			);
-			name = GETPeopleUITests;
+			name = GETFilmsUITests;
 			productName = GETPeopleUITests;
-			productReference = 84367A382772545A000FD919 /* GETPeopleUITests.xctest */;
+			productReference = 84367A382772545A000FD919 /* GETFilmsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -209,7 +218,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 84367A1027725459000FD919 /* Build configuration list for PBXProject "GETPeople" */;
+			buildConfigurationList = 84367A1027725459000FD919 /* Build configuration list for PBXProject "GETFilms" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -222,9 +231,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				84367A1427725459000FD919 /* GETPeople */,
-				84367A2D2772545A000FD919 /* GETPeopleTests */,
-				84367A372772545A000FD919 /* GETPeopleUITests */,
+				84367A1427725459000FD919 /* GETFilms */,
+				84367A2D2772545A000FD919 /* GETFilmsTests */,
+				84367A372772545A000FD919 /* GETFilmsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -261,9 +270,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84367A5027730632000FD919 /* FilmsViewController.swift in Sources */,
 				84367A1D27725459000FD919 /* PeopleViewController.swift in Sources */,
 				84367A1927725459000FD919 /* AppDelegate.swift in Sources */,
+				84367A4E277300A9000FD919 /* DataDelegate.swift in Sources */,
 				84367A1B27725459000FD919 /* SceneDelegate.swift in Sources */,
+				84367A4C2772FFFF000FD919 /* APIConnection.swift in Sources */,
 				84367A2327725459000FD919 /* GETPeople.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,12 +302,12 @@
 /* Begin PBXTargetDependency section */
 		84367A302772545A000FD919 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 84367A1427725459000FD919 /* GETPeople */;
+			target = 84367A1427725459000FD919 /* GETFilms */;
 			targetProxy = 84367A2F2772545A000FD919 /* PBXContainerItemProxy */;
 		};
 		84367A3A2772545A000FD919 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 84367A1427725459000FD919 /* GETPeople */;
+			target = 84367A1427725459000FD919 /* GETFilms */;
 			targetProxy = 84367A392772545A000FD919 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -456,7 +468,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Dojo-Nerds.GETPeople";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dojo-Nerds.GETFilms";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -484,7 +496,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Dojo-Nerds.GETPeople";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dojo-Nerds.GETFilms";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -508,7 +520,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GETPeople.app/GETPeople";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GETFilms.app/GETFilms";
 			};
 			name = Debug;
 		};
@@ -528,7 +540,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GETPeople.app/GETPeople";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GETFilms.app/GETFilms";
 			};
 			name = Release;
 		};
@@ -571,7 +583,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		84367A1027725459000FD919 /* Build configuration list for PBXProject "GETPeople" */ = {
+		84367A1027725459000FD919 /* Build configuration list for PBXProject "GETFilms" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84367A402772545A000FD919 /* Debug */,
@@ -580,7 +592,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84367A422772545A000FD919 /* Build configuration list for PBXNativeTarget "GETPeople" */ = {
+		84367A422772545A000FD919 /* Build configuration list for PBXNativeTarget "GETFilms" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84367A432772545A000FD919 /* Debug */,
@@ -589,7 +601,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84367A452772545A000FD919 /* Build configuration list for PBXNativeTarget "GETPeopleTests" */ = {
+		84367A452772545A000FD919 /* Build configuration list for PBXNativeTarget "GETFilmsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84367A462772545A000FD919 /* Debug */,
@@ -598,7 +610,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84367A482772545A000FD919 /* Build configuration list for PBXNativeTarget "GETPeopleUITests" */ = {
+		84367A482772545A000FD919 /* Build configuration list for PBXNativeTarget "GETFilmsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84367A492772545A000FD919 /* Debug */,
