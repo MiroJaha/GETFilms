@@ -11,12 +11,12 @@
 		84367A1B27725459000FD919 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84367A1A27725459000FD919 /* SceneDelegate.swift */; };
 		84367A1D27725459000FD919 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84367A1C27725459000FD919 /* PeopleViewController.swift */; };
 		84367A2027725459000FD919 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84367A1E27725459000FD919 /* Main.storyboard */; };
-		84367A2327725459000FD919 /* GETPeople.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84367A2127725459000FD919 /* GETPeople.xcdatamodeld */; };
+		84367A2327725459000FD919 /* GETFilms.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84367A2127725459000FD919 /* GETFilms.xcdatamodeld */; };
 		84367A252772545A000FD919 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84367A242772545A000FD919 /* Assets.xcassets */; };
 		84367A282772545A000FD919 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84367A262772545A000FD919 /* LaunchScreen.storyboard */; };
-		84367A332772545A000FD919 /* GETPeopleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84367A322772545A000FD919 /* GETPeopleTests.swift */; };
-		84367A3D2772545A000FD919 /* GETPeopleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84367A3C2772545A000FD919 /* GETPeopleUITests.swift */; };
-		84367A3F2772545A000FD919 /* GETPeopleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84367A3E2772545A000FD919 /* GETPeopleUITestsLaunchTests.swift */; };
+		84367A332772545A000FD919 /* GETFilmsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84367A322772545A000FD919 /* GETFilmsTests.swift */; };
+		84367A3D2772545A000FD919 /* GETFilmsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84367A3C2772545A000FD919 /* GETFilmsUITests.swift */; };
+		84367A3F2772545A000FD919 /* GETFilmsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84367A3E2772545A000FD919 /* GETFilmsUITestsLaunchTests.swift */; };
 		84367A4C2772FFFF000FD919 /* APIConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84367A4B2772FFFF000FD919 /* APIConnection.swift */; };
 		84367A4E277300A9000FD919 /* DataDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84367A4D277300A9000FD919 /* DataDelegate.swift */; };
 		84367A5027730632000FD919 /* FilmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84367A4F27730632000FD919 /* FilmsViewController.swift */; };
@@ -45,15 +45,15 @@
 		84367A1A27725459000FD919 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		84367A1C27725459000FD919 /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
 		84367A1F27725459000FD919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		84367A2227725459000FD919 /* GETPeople.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GETPeople.xcdatamodel; sourceTree = "<group>"; };
+		84367A2227725459000FD919 /* GETFilms.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GETFilms.xcdatamodel; sourceTree = "<group>"; };
 		84367A242772545A000FD919 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84367A272772545A000FD919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84367A292772545A000FD919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84367A2E2772545A000FD919 /* GETFilmsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GETFilmsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		84367A322772545A000FD919 /* GETPeopleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GETPeopleTests.swift; sourceTree = "<group>"; };
+		84367A322772545A000FD919 /* GETFilmsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GETFilmsTests.swift; sourceTree = "<group>"; };
 		84367A382772545A000FD919 /* GETFilmsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GETFilmsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		84367A3C2772545A000FD919 /* GETPeopleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GETPeopleUITests.swift; sourceTree = "<group>"; };
-		84367A3E2772545A000FD919 /* GETPeopleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GETPeopleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84367A3C2772545A000FD919 /* GETFilmsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GETFilmsUITests.swift; sourceTree = "<group>"; };
+		84367A3E2772545A000FD919 /* GETFilmsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GETFilmsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		84367A4B2772FFFF000FD919 /* APIConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConnection.swift; sourceTree = "<group>"; };
 		84367A4D277300A9000FD919 /* DataDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDelegate.swift; sourceTree = "<group>"; };
 		84367A4F27730632000FD919 /* FilmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsViewController.swift; sourceTree = "<group>"; };
@@ -87,9 +87,9 @@
 		84367A0C27725459000FD919 = {
 			isa = PBXGroup;
 			children = (
-				84367A1727725459000FD919 /* GETPeople */,
-				84367A312772545A000FD919 /* GETPeopleTests */,
-				84367A3B2772545A000FD919 /* GETPeopleUITests */,
+				84367A1727725459000FD919 /* GETFilms */,
+				84367A312772545A000FD919 /* GETFilmsTests */,
+				84367A3B2772545A000FD919 /* GETFilmsUITests */,
 				84367A1627725459000FD919 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -104,7 +104,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		84367A1727725459000FD919 /* GETPeople */ = {
+		84367A1727725459000FD919 /* GETFilms */ = {
 			isa = PBXGroup;
 			children = (
 				84367A1827725459000FD919 /* AppDelegate.swift */,
@@ -117,26 +117,26 @@
 				84367A242772545A000FD919 /* Assets.xcassets */,
 				84367A262772545A000FD919 /* LaunchScreen.storyboard */,
 				84367A292772545A000FD919 /* Info.plist */,
-				84367A2127725459000FD919 /* GETPeople.xcdatamodeld */,
+				84367A2127725459000FD919 /* GETFilms.xcdatamodeld */,
 			);
-			path = GETPeople;
+			path = GETFilms;
 			sourceTree = "<group>";
 		};
-		84367A312772545A000FD919 /* GETPeopleTests */ = {
+		84367A312772545A000FD919 /* GETFilmsTests */ = {
 			isa = PBXGroup;
 			children = (
-				84367A322772545A000FD919 /* GETPeopleTests.swift */,
+				84367A322772545A000FD919 /* GETFilmsTests.swift */,
 			);
-			path = GETPeopleTests;
+			path = GETFilmsTests;
 			sourceTree = "<group>";
 		};
-		84367A3B2772545A000FD919 /* GETPeopleUITests */ = {
+		84367A3B2772545A000FD919 /* GETFilmsUITests */ = {
 			isa = PBXGroup;
 			children = (
-				84367A3C2772545A000FD919 /* GETPeopleUITests.swift */,
-				84367A3E2772545A000FD919 /* GETPeopleUITestsLaunchTests.swift */,
+				84367A3C2772545A000FD919 /* GETFilmsUITests.swift */,
+				84367A3E2772545A000FD919 /* GETFilmsUITestsLaunchTests.swift */,
 			);
-			path = GETPeopleUITests;
+			path = GETFilmsUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,7 +276,7 @@
 				84367A4E277300A9000FD919 /* DataDelegate.swift in Sources */,
 				84367A1B27725459000FD919 /* SceneDelegate.swift in Sources */,
 				84367A4C2772FFFF000FD919 /* APIConnection.swift in Sources */,
-				84367A2327725459000FD919 /* GETPeople.xcdatamodeld in Sources */,
+				84367A2327725459000FD919 /* GETFilms.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84367A332772545A000FD919 /* GETPeopleTests.swift in Sources */,
+				84367A332772545A000FD919 /* GETFilmsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,8 +292,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84367A3F2772545A000FD919 /* GETPeopleUITestsLaunchTests.swift in Sources */,
-				84367A3D2772545A000FD919 /* GETPeopleUITests.swift in Sources */,
+				84367A3F2772545A000FD919 /* GETFilmsUITestsLaunchTests.swift in Sources */,
+				84367A3D2772545A000FD919 /* GETFilmsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,7 +457,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9U2P84VZ5X;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = GETPeople/Info.plist;
+				INFOPLIST_FILE = GETFilms/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -485,7 +485,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9U2P84VZ5X;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = GETPeople/Info.plist;
+				INFOPLIST_FILE = GETFilms/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -622,13 +622,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		84367A2127725459000FD919 /* GETPeople.xcdatamodeld */ = {
+		84367A2127725459000FD919 /* GETFilms.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				84367A2227725459000FD919 /* GETPeople.xcdatamodel */,
+				84367A2227725459000FD919 /* GETFilms.xcdatamodel */,
 			);
-			currentVersion = 84367A2227725459000FD919 /* GETPeople.xcdatamodel */;
-			path = GETPeople.xcdatamodeld;
+			currentVersion = 84367A2227725459000FD919 /* GETFilms.xcdatamodel */;
+			path = GETFilms.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
