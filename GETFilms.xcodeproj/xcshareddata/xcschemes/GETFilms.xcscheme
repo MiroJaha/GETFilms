@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "84367A1427725459000FD919"
-               BuildableName = "GETPeople.app"
+               BuildableName = "GETFilms.app"
                BlueprintName = "GETFilms"
                ReferencedContainer = "container:GETFilms.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "84367A1427725459000FD919"
-            BuildableName = "GETPeople.app"
+            BuildableName = "GETFilms.app"
             BlueprintName = "GETFilms"
             ReferencedContainer = "container:GETFilms.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "84367A1427725459000FD919"
-            BuildableName = "GETPeople.app"
+            BuildableName = "GETFilms.app"
             BlueprintName = "GETFilms"
             ReferencedContainer = "container:GETFilms.xcodeproj">
          </BuildableReference>
